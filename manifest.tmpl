@@ -1,0 +1,19 @@
+image: toolhippie/reg:latest
+manifests:
+  -
+    image: toolhippie/reg:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  -
+    image: toolhippie/reg:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
+  -
+    image: toolhippie/reg:arm32v6
+    platform:
+      architecture: arm
+      os: linux
+      variant: v6
