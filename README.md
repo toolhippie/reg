@@ -1,6 +1,6 @@
-# Reg
+# reg
 
-[![Build Status](https://github.dronehippie.de/api/badges/toolhippie/reg/status.svg)](https://github.dronehippie.de/toolhippie/reg)
+[![Build Status](https://cloud.drone.io/api/badges/toolhippie/reg/status.svg)](https://cloud.drone.io/toolhippie/reg)
 [![](https://images.microbadger.com/badges/image/toolhippie/reg:latest.svg)](https://microbadger.com/images/toolhippie/reg:latest "Get your own image badge on microbadger.com")
 
 TBD
