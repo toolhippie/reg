@@ -1,36 +1,27 @@
 # reg
 
-[![Build Status](https://cloud.drone.io/api/badges/toolhippie/reg/status.svg)](https://cloud.drone.io/toolhippie/reg)
-[![](https://images.microbadger.com/badges/image/toolhippie/reg:latest.svg)](https://microbadger.com/images/toolhippie/reg:latest "Get your own image badge on microbadger.com")
+[![Docker Build](https://github.com/toolhippie/reg/workflows/docker/badge.svg)](https://github.com/toolhippie/reg/actions?query=workflow%3Adocker) [![Docker Size](https://img.shields.io/docker/image-size/toolhippie/reg/latest)](https://hub.docker.com/r/toolhippie/reg) [![Docker Pulls](https://img.shields.io/docker/pulls/toolhippie/reg)](https://hub.docker.com/r/toolhippie/reg) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/toolhippie/reg) [![Upstream Repo](https://img.shields.io/badge/upstream-repo-yellow)](https://github.com/genuinetools/reg)
 
 **All these images are used for various scriptings, it's possible that any of these tools are updated randomly**
 
-* [GitHub](https://github.com/toolhippie/reg)
-* [Upstream](https://github.com/genuinetools/reg)
-
-
 ## Versions
 
-To get an overview about the available versions please take a look at the [GitHub branches](https://github.com/toolhippie/reg/branches/all) or our [Docker Hub tags](https://hub.docker.com/r/toolhippie/reg/tags/), these lists are always up to date.
-
+To get an overview about the available versions please take a look at our [DockerHub tags](https://hub.docker.com/r/toolhippie/reg/tags/) or [Quay.io tags](https://quay.io/repository/toolhippie/reg?tab=tags), these lists are always up to date.
 
 ## Contributing
 
 Fork -> Patch -> Push -> Pull Request
 
-
 ## Authors
 
-* [Thomas Boerger](https://github.com/tboerger)
-
+*  [Thomas Boerger](https://github.com/tboerger)
 
 ## License
 
 MIT
 
-
 ## Copyright
 
-```
+```console
 Copyright (c) 2018 Thomas Boerger <http://www.webhippie.de>
 ```
