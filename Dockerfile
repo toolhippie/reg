@@ -10,13 +10,13 @@ RUN apk update && \
   apk upgrade && \
   case "${TARGETARCH}" in \
 		'amd64') \
-			wget -qO /usr/bin/reg https://github.com/genuinetools/reg/releases/download/v${REG_VERSION}/reg-linux-amd64; \
+			curl -sSLo /usr/bin/reg https://github.com/genuinetools/reg/releases/download/v${REG_VERSION}/reg-linux-amd64; \
 			;; \
 		'arm64') \
-			wget -qO /usr/bin/reg https://github.com/genuinetools/reg/releases/download/v${REG_VERSION}/reg-linux-arm64; \
+			curl -sSLo /usr/bin/reg https://github.com/genuinetools/reg/releases/download/v${REG_VERSION}/reg-linux-arm64; \
 			;; \
 		'arm') \
-			wget -qO /usr/bin/reg https://github.com/genuinetools/reg/releases/download/v${REG_VERSION}/reg-linux-arm; \
+			curl -sSLo /usr/bin/reg https://github.com/genuinetools/reg/releases/download/v${REG_VERSION}/reg-linux-arm; \
 			;; \
 		*) echo >&2 "error: unsupported architecture '${TARGETARCH}'"; exit 1 ;; \
 	esac && \
