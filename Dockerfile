@@ -4,7 +4,7 @@ ENTRYPOINT [""]
 # renovate: datasource=github-releases depName=genuinetools/reg
 ENV REG_VERSION=0.16.1
 
-ARG TARGETARCH=amd64
+ARG TARGETARCH
 
 RUN apk update && \
   apk upgrade && \
